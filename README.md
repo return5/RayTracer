@@ -18,6 +18,6 @@ also generates a sequence of images which are then put together into animated GI
     
     
 ### note:
-  there are no comments in this code. i built it as i followed the book and as such i consider the book to be documentation for the code. that, along with what i consider to be readable code serve as all the documentation for this project. 
+  there are almost no comments in this code. i built it as i followed the book and as such i consider the book to be documentation for the code. that, along with what i consider to be readable code serve as all the documentation for this project. 
 
 
