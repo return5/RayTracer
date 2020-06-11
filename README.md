@@ -2,14 +2,14 @@
 simple lua ray tracer built from [Ray Tracing In One Weekened](https://raytracing.github.io/)
 
 this code generates a sample image similar to the one in the book:
-  ![screenshot1](/pics/sample.png)
+![screenshot1](/pics/sample.png)
   
   
   
 also generates a sequence of images which are then put together into animated GIFs:
-    ![screenshot1](/pics/flyin.gif)
-    ![screenshot1](/pics/pan.gif)
-    ![screenshot1](/pics/drop.gif)
+  ![screenshot1](/pics/flyin.gif)
+  ![screenshot1](/pics/pan.gif)
+  ![screenshot1](/pics/drop.gif)
     
     
     
