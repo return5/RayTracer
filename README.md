@@ -18,11 +18,11 @@ also generates a sequence of images which are then put together into animated GI
     
     
 ### note:
-  * there are almost no comments in this code. i built it as i followed the book and as such i consider the book to be documentation for the code. that, along with what i consider to be readable code serve as all the documentation for this project. 
+  * there are almost no comments in this code. i built it as i followed the book and as such i consider the book to be documentation for the code.
   
-  * doesnt seem to play nice with luajit. dont know enought about it to even guess as to why. 
+  * doesnt seem to play nice with luajit. dont know enough about using luajit to even guess as to why. 
   
-  * i am by no means an expert at writting efficient lua code so there are probably plenty of ways to optimize and write this code tons better. 
+  * i am by no means an expert at writting efficient lua code so there are plenty of ways to optimize and write this code tons better. I may do this as a future project. 
 
 
 
