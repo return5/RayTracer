@@ -28,12 +28,19 @@ local function addSphere(world,center,diameter,material)
 end
 
 local function populateWorldGIFs(world) 
+<<<<<<< HEAD
     --addSphere(world,VECTOR:new(-1,0,-1),0.5,DIELECTRIC:new(1.5))
+=======
+>>>>>>> 245d3820cf0bee1865b5ff6e2ffc99c9873e5df1
     addSphere(world,VECTOR:new(0,0,-1),0.5,LAMBERTIAN:new(VECTOR:new(0.1,0.2,0.5)))
     addSphere(world,VECTOR:new(0,-100.5,-1),100,LAMBERTIAN:new(VECTOR:new(0.8,0.8,0.0)))
     addSphere(world,VECTOR:new(1,0,-1),0.5,METAL:new(VECTOR:new(0.8,0.6,0.2),0.3))
     addSphere(world,VECTOR:new(-1,0,-1),0.5,DIELECTRIC:new(1.5))
+<<<<<<< HEAD
     addSphere(world,VECTOR:new(-1,0,-1),-0.47,DIELECTRIC:new(1.5))
+=======
+    addSphere(world,VECTOR:new(-1,0,-1),-0.45,DIELECTRIC:new(1.5))
+>>>>>>> 245d3820cf0bee1865b5ff6e2ffc99c9873e5df1
 end
 
 local function populateWorldStatic(world)
@@ -148,8 +155,13 @@ local function main()
     local aspect_ratio    = 16.0 / 9.0
     local width           = 384
     local height          = toInteger((width) / aspect_ratio)
+<<<<<<< HEAD
     makeGIFs(height - 1,width - 1)
     --makeStaticScene(height - 1,width - 1)
+=======
+    --makeGIFs(height - 1,width - 1)
+    makeStaticScene(height - 1,width - 1)
+>>>>>>> 245d3820cf0bee1865b5ff6e2ffc99c9873e5df1
 end
 
 main()
